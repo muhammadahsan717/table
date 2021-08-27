@@ -1,0 +1,171 @@
+* {
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+.fnav {
+  background-color: darkslategrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+  padding-right: 20px;
+}
+
+.fnav .logo {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 1000;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  margin: auto 0;
+}
+
+ul li {
+  margin: 0 2px;
+  padding: 5px 10px;
+}
+
+.search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  padding: 10px 0;
+  cursor: pointer;
+  width: 400px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: #fff;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.sicon {
+  padding-top: 8px;
+  height: 30px;
+  position: absolute;
+  right: 175px;
+  cursor: pointer;
+}
+
+.snav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px;
+  -webkit-box-shadow: 0px 0.8px 0px 0px rgba(26, 25, 25, 0.2);
+          box-shadow: 0px 0.8px 0px 0px rgba(26, 25, 25, 0.2);
+}
+
+.snav .cont {
+  font-size: 12px;
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.snav .cont img {
+  height: 20px;
+}
+
+.pgnavigator {
+  padding: 20px 20px;
+  background-color: #ebeff2;
+}
+
+.pgnavigator .Container3 {
+  padding-top: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pgnavigator .Container3 a {
+  color: #597690;
+  text-decoration: none;
+}
+
+.pgnavigator .Container3 .settingbtn {
+  background-color: #61bcaa;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+.pgnavigator .Container3 .settingbtn a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.pgnavigator .main {
+  margin: 40px 0px;
+}
+
+.pgnavigator .main .table_dark {
+  background-color: #95a5a6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  letter-spacing: 0.03em;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  padding: 25px 35px;
+  margin: 0px 20px;
+}
+
+.pgnavigator .main .table_content {
+  padding: 25px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 20px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cont {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.cont-1 {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+/*# sourceMappingURL=style.css.map */
